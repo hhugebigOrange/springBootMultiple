@@ -7,10 +7,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class KafkaTopicInitConfig {
 
-    @Bean
-    public NewTopic initTopic(){
-        return new NewTopic("test",3,(short) 2);
-    }
+//    @Bean
+//    public NewTopic initTopic(){
+//        return new NewTopic("test",3,(short) 2);
+//    }
 
 
 
